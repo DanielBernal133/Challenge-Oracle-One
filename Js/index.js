@@ -69,7 +69,7 @@ function desencriptar_texto(){
 
 
 function limpiar_elment(encriptado){
-    var divElement = document.getElementById('ejemplo');
+    var divElement = document.getElementById('area-text');
     // Elimina todos los hijos del elemento div
     while (divElement.firstChild) {
     divElement.removeChild(divElement.firstChild);
